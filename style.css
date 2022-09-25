@@ -18,7 +18,7 @@ font-family: 'Roboto Flex', sans-serif; */
 }
 
 body {
-  background-color: var(--bgcolor);
+  background-color: var(color2);
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,8 +27,7 @@ body {
 }
 
 .datetime {
-  color: var(--color);
-  color: #fff;
+  color: var(--bgcolor);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,6 +39,7 @@ body {
   text-align: center;
   font-weight: bold;
   /* background-color: var(--fgcolor); */
+  text-shadow: -1px -1px 1px var(--bgcolor), 0.5px 0.5px 0.5px var(--fgcolor);
 }
 
 #year {
@@ -68,7 +68,7 @@ body {
 }
 
 #seconds {
-  color: #000;
+  color: var(--color);
   width: 500px;
   height: 550px;
   position: absolute;
