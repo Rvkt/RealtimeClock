@@ -28,7 +28,7 @@ body {
 
 .datetime {
   color: var(--color);
-  color: var(--fgcolor);
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -68,7 +68,7 @@ body {
 }
 
 #seconds {
-  color: var(--color2);
+  color: #000;
   width: 500px;
   height: 550px;
   position: absolute;
